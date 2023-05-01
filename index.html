@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>1st year farewell collection</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<style>
+   body {
+	font-family: Arial, sans-serif;
+	background-color: #EEE;
+}
+
+#total{
+   background-color: lightgrey;
+}
+.container {
+	width: 80%;
+	margin: auto;
+	padding: 20px;
+	background-color: #FFF;
+	box-shadow: 0px 0px 5px #CCC;
+}
+
+h1 {
+   text-align:center;
+	font-size: 36px;
+	color: #333;
+	margin-top: 0;
+}
+
+p {
+	font-size: 18px;
+	color: #666;
+	margin-bottom: 20px;
+}
+
+button {
+	background-color: #4CAF50;
+	color: #FFF;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: #3E8E41;
+}
+table {
+   border-collapse: collapse;
+   width: 100%;
+}
+
+thead {
+   background-color: #EEE;
+}
+
+th,
+td {
+   border: 1px solid #CCC;
+   padding: 8px;
+   text
+}
+th{
+  background-color:#EEE;
+}
+
+.core3{
+   
+}
+}
+</style>
+<body>
+	<div class="container">
+		<h1>2<sup>nd</sup> SEMESTER TIME TABLE  </h1>
+		<table>
+		   <thead>
+		      <tr>
+		  
+		         <th>DAYS</th>
+		         <th>08:15</th>
+		          <th>09:00</th>
+		          <th>09:45</th>
+		          <th>10:30</th>
+		          <th>11:45</th>
+		          <th>12:00</th>
+		      </tr>
+		   </thead>
+		   <tbody>
+		      <tr>
+		         <th><a hr></a>MONDAY</th>
+		         <td>AECC-II (H4)</td>
+		         <td>GE-II (H7)</td>
+		         <td class="core3">CORE-3</td>
+		         <td>CORE-4</td>
+		         <td> </td>
+		         <td>ETHICS & VALUES H9,H10</td>
+		     </tr>
+		      <tr>
+		          <th>TUESDAY</th>
+		              <td>AECC-II (H4)</td>
+		              <td>GE-II (H7)</td>
+		              <td>CORE-4 (LAB)</td>
+		              <td>CORE-3 (LAB)</td>
+		              <td>CORE-4 (LAB) </td>
+		              <td> </td>
+		      </tr>
+		      <tr>
+		          <th>WEDNESDAY</th>
+		                 <td>AECC-II (H4)</td>
+		                 <td>GE-II (H7)</td>
+		                 <td>CORE-3</td>
+		                 <td>CORE-4</td>
+		                 <td> </td>
+		                 <td> </td>
+		      </tr>
+		      <tr>
+		         <th>THURSDAY</th>
+		              <td>AECC-II (H4)</td>
+		              <td>CORE-4 (LAB)</td>
+		              <td>  </td>
+		              <td>  </td>
+		              <td>CORE-4 (LAB)</td>
+		              <td> </td>
+		      </tr>
+		      <tr>
+  <th>FRIDAY</th>
+		           <td>AECC-II (H4)</td>
+		           <td>CORE-3 (LAB)</td>
+		           <td>  </td>
+		           <td>  </td>
+		           <td>GE-II (H7)</td>
+		           <td>  </td>
+		      </tr>
+		      <tr>
+  <th>SATURDAY</th>
+		              <td>AECC-II (H4)</td>
+		              <td>GE-II (LAB)</td>
+		              <td>  </td>
+		              <td>  </td>
+		              <td>CORE-3(LAB)</td>
+		              <td>  </td>
+		      </tr>
+
+		   </tbody>
+		</table>
+		
+			
+			<br>
+		   <br>
+		<button id="print-button">DOWNLOAD PAGE</button>
+	</div>
+	<script src="script.js"></script>
+</body>
+<script>
+   const printButton = document.querySelector('#print-button');
+
+printButton.addEventListener('click', function() {
+	window.print();
+});
+
+</script>
+</html>
